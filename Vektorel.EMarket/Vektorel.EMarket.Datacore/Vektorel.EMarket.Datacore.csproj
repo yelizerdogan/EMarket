@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1CEF1C98-EF63-465C-9F78-DC6FAB0501B6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vektorel.EMarket.Datacore</RootNamespace>
+    <AssemblyName>Vektorel.EMarket.Datacore</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Context\EMarketDbContext.cs" />
+    <Compile Include="Context\Mapping\BaseEntityMap.cs" />
+    <Compile Include="Context\Mapping\CustomerMap.cs" />
+    <Compile Include="Context\Mapping\InvoiceLineMap.cs" />
+    <Compile Include="Context\Mapping\InvoiceMap.cs" />
+    <Compile Include="Context\Mapping\ModuleMap.cs" />
+    <Compile Include="Context\Mapping\OrderMap.cs" />
+    <Compile Include="Context\Mapping\ProductMap.cs" />
+    <Compile Include="Context\Mapping\RoleMap.cs" />
+    <Compile Include="Context\Mapping\UserMap.cs" />
+    <Compile Include="Infrastructure\ProductRepository.cs" />
+    <Compile Include="Infrastructure\RoleRepository.cs" />
+    <Compile Include="Infrastructure\UserRepository.cs" />
+    <Compile Include="Migrations\201902232113169_first.cs" />
+    <Compile Include="Migrations\201902232113169_first.Designer.cs">
+      <DependentUpon>201902232113169_first.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902232135178_second.cs" />
+    <Compile Include="Migrations\201902232135178_second.Designer.cs">
+      <DependentUpon>201902232135178_second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902232139191_moduleroute.cs" />
+    <Compile Include="Migrations\201902232139191_moduleroute.Designer.cs">
+      <DependentUpon>201902232139191_moduleroute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MAA.Basecore\MAA.Basecore.csproj">
+      <Project>{ca45d650-717c-499b-adf5-bd1fad3b6c16}</Project>
+      <Name>MAA.Basecore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vektorel.EMarket.Domain\Vektorel.EMarket.Domain.csproj">
+      <Project>{0952d1ff-4adb-4d78-88eb-b248134f2ff1}</Project>
+      <Name>Vektorel.EMarket.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201902232113169_first.resx">
+      <DependentUpon>201902232113169_first.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902232135178_second.resx">
+      <DependentUpon>201902232135178_second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902232139191_moduleroute.resx">
+      <DependentUpon>201902232139191_moduleroute.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

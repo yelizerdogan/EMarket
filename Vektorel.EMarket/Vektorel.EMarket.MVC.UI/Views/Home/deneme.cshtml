@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>deneme</title>
+</head>
+<body>
+    <div> 
+        @for (int i = 1; i <= 6; i++)
+        {
+           @Html.Raw("<h"+i+">Vektörel 1</h"+i+">")
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\Vektorel.EMarket.MVC.UI.dll.config
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\Vektorel.EMarket.MVC.UI.dll
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\Vektorel.EMarket.MVC.UI.pdb
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\System.Web.Helpers.dll
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\System.Web.Mvc.dll
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\System.Web.Razor.dll
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\System.Web.Webpages.dll
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\System.Web.Webpages.Razor.dll
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\System.Web.Razor.xml
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\System.Web.Webpages.xml
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\System.Web.Webpages.Razor.xml
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\System.Web.Helpers.xml
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\bin\System.Web.Mvc.xml
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\obj\Release\Vektorel.EMarket.MVC.UI.dll
+C:\Users\vektorel\Desktop\25 Şubat 2019\Vektorel.EMarket\Vektorel.EMarket.MVC.UI\obj\Release\Vektorel.EMarket.MVC.UI.pdb
